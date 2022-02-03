@@ -8,7 +8,7 @@ pipeline {
 		PROJECT_ID = 'solar-vortex-332704'
                 CLUSTER_NAME = 'demo'
                 LOCATION = 'us-central1-c'
-                CREDENTIALS_ID = 'solar-vortex-332704'		
+                CREDENTIALS_ID = 'kubernetes'		
 	}
 	
     stages {
