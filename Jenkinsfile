@@ -53,7 +53,7 @@ pipeline {
 		    }
 	    }
 	    
-	    stage('Deploy to K8s') {
+	    stage('Deploy to demo') {
 		    steps{
 			    echo "Deployment started ..."
 			    sh 'ls -ltr'
