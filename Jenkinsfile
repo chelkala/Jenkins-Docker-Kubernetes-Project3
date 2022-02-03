@@ -5,10 +5,10 @@ pipeline {
 	}
 	
 	environment {
-		PROJECT_ID = 'solar-vortex-332704'
+		PROJECT_ID = 'solar-vortex-337204'
                 CLUSTER_NAME = 'demo'
                 LOCATION = 'us-central1-c'
-                CREDENTIALS_ID = 'My First Project'		
+                CREDENTIALS_ID = 'solar-vortex-337204'		
 	}
 	
     stages {
