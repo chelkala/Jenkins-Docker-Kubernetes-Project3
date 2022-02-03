@@ -1,5 +1,3 @@
-FROM tomcat:8.0.20-jre8
+FROM nginx
 
-RUN mkdir /usr/local/tomcat/webapps/myapp
-
-COPY kubernetes/target/kubernetes-1.0-AMIT.war /usr/local/tomcat/webapps/kubernetes-1.0-AMIT.war
+RUN mkdir /usr/local/nginx/webapps/myapp
