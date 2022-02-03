@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: myapp-app-loadbalancer
-     image: ameintu/devops:tagversion
+     image: nginx:tagversion
      ports:
      - containerPort: 8080
 
@@ -33,4 +33,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 8080
+      targetPort: 
