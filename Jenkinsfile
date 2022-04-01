@@ -5,10 +5,10 @@ pipeline {
 	}
 	
 	environment {
-		PROJECT_ID = 'solar-vortex-337204'
-                CLUSTER_NAME = 'demo'
-                LOCATION = 'us-central1-c'
-                CREDENTIALS_ID = 'solar-vortex-337204'		
+		PROJECT_ID = 'compact-window-341709 '
+                CLUSTER_NAME = 'cluster-1 '
+                LOCATION = 'us-central1 '
+                CREDENTIALS_ID = 'kubernetes'		
 	}
 	
     stages {
