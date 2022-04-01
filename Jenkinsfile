@@ -8,7 +8,7 @@ pipeline {
 		PROJECT_ID = 'compact-window-341709 '
                 CLUSTER_NAME = 'cluster-1 '
                 LOCATION = 'us-central1 '
-                CREDENTIALS_ID = 'kubernetes'		
+                CREDENTIALS_ID = 'chelkala'		
 	}
 	
     stages {
