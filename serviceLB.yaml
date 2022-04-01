@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: myapp-deployment-loadbalancer
+  name: myapp-deployment-loadbalancer
  labels:
   app: myapp-app-loadbalancer
 spec:
@@ -15,11 +15,11 @@ spec:
    labels:
     app: myapp-app-loadbalancer
   spec:
-   containers:
-   - name: myapp-app-loadbalancer
-     image: chelkala/devops:tagversion
-     ports:
-     - containerPort: 8080
+    containers:
+    - name: myapp-app-loadbalancer
+      image: chelkala/devops:tagversion
+      ports:
+      - containerPort: 8080
 
 ---
 apiVersion: v1
