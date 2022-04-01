@@ -20,14 +20,14 @@ pipeline {
 	    
 	    stage('Build') {
 		    steps {
-			    sh 'maven clean package'
+			    sh 'mvn clean package'
 		    }
 	    }
 	    
 	    stage('Test') {
 		    steps {
 			    echo "Testing..."
-			    sh 'maven test'
+			    sh 'mvn test'
 		    }
 	    }
 	    
