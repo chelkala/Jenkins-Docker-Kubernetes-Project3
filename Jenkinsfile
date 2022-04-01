@@ -7,7 +7,7 @@ pipeline {
 	environment {
 		PROJECT_ID = 'compact-window-341709 '
                 CLUSTER_NAME = 'cluster-1 '
-                LOCATION = 'us-central1-c'
+                LOCATION = 'us-central1-c '
                 CREDENTIALS_ID = 'kubernetes'		
 	}
 	
